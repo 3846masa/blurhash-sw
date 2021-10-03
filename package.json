@@ -1,0 +1,58 @@
+{
+  "name": "blurhash-sw",
+  "version": "0.0.0",
+  "description": "The BlurHash API provided by ServiceWorker",
+  "license": "MIT",
+  "author": {
+    "name": "3846masa",
+    "email": "3846masahiro+git@gmail.com"
+  },
+  "homepage": "https://github.com/3846masa/blurhash-sw#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3846masa/blurhash-sw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3846masa/blurhash-sw/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build:demo": "remark index.md -o demo/index.html",
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@3846masa/bmp": "1.1.2",
+    "blurhash": "1.1.4",
+    "regexparam": "2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "21.0.0",
+    "@rollup/plugin-node-resolve": "13.0.5",
+    "@rollup/plugin-typescript": "8.2.5",
+    "@types/serviceworker": "0.0.24",
+    "rollup": "2.58.0",
+    "rollup-plugin-license": "2.5.0",
+    "rollup-plugin-terser": "7.0.2",
+    "tslib": "2.3.1",
+    "typescript": "4.4.3",
+    "@mapbox/rehype-prism": "0.8.0",
+    "rehype-document": "6.0.0",
+    "rehype-preset-minify": "6.0.0",
+    "rehype-raw": "6.1.0",
+    "rehype-rewrite": "3.0.0",
+    "rehype-stringify": "9.0.2",
+    "rehype-wrap": "1.0.10",
+    "remark-cli": "10.0.0",
+    "remark-emoji": "3.0.1",
+    "remark-rehype": "9.1.0"
+  },
+  "keywords": [
+    "blurhash"
+  ],
+  "exports": "./dist/index.mjs",
+  "jsdelivr": "./dist/index.iife.js",
+  "unpkg": "./dist/index.iife.js"
+}

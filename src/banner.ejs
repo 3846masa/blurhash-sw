@@ -1,0 +1,8 @@
+<%= pkg.name %>@<%= pkg.version %>
+<%= pkg.license %> (c) <%= moment().format('YYYY') %> <%= pkg.author.name %>
+
+Dependencies:
+<% _.forEach(dependencies, function (dependency) { %>
+  <%= dependency.name %>@<%= dependency.version %>
+  <%= dependency.license %> (c) <%= dependency.author.name %>
+<% }) %>
