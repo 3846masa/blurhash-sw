@@ -58,7 +58,7 @@ Add the following code to your ServiceWorker script.
 
 ```js
 // sw.js
-importScripts('https://unpkg.com/blurhash-sw@1.0.1');
+importScripts('https://unpkg.com/blurhash-sw@1.0.1/dist/index.js');
 
 blurhashSW({
   routeUrl: '/.blurhash/:blurhash',
@@ -81,10 +81,9 @@ See also [demo page](https://3846masa.github.io/blurhash-sw/).
 
 ### The easiest way
 
-Set the BlurHash URL as background-image.
+Set the BlurHash URL as `background-image`.
 
-:warning: The BlurHash URL will be available after the ServiceWorker is ready.
-Therefore, it will not work properly the first time you access the site.
+You should encode the BlurHash hash contained in the URL.
 
 ```html
 <img
@@ -119,58 +118,11 @@ Therefore, it will not work properly the first time you access the site.
 />
 -->
 
-### Using `data-blurhash` attribute
-
-Set the BlurHash to `data-blurhash` for waiting until the ServiceWorker is ready.
-
-When the ServiceWorker is ready, set `background-image` based on `data-blurhash`.
-
-```js
-navigator.serviceWorker
-  .register('/sw.js')
-  .then(() => navigator.serviceWorker.ready)
-  .then(() => {
-    const $imgList = document.querySelectorAll('img[data-blurhash]');
-    for (const $img of $imgList) {
-      const blurhash = $img.dataset.blurhash;
-      $img.style.backgroundSize = `100% 100%`;
-      $img.style.backgroundImage = `url(/.blurhash/${encodeURIComponent(blurhash)})`;
-    }
-  });
-```
-
-```html
-<img
-  src="https://source.unsplash.com/HkGaG67usNE/597x398"
-  alt="Kinkaku-ji"
-  width="597"
-  height="398"
-  loading="lazy"
-  data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
-/>
-```
-
-<!--
-<img
-  src="https://deelay.me/3000/https://source.unsplash.com/HkGaG67usNE/597x398"
-  alt="Kinkaku-ji"
-  width="597"
-  height="398"
-  style="
-    width: 400px;
-    height: auto;
-    background-color: #0c8cd9;
-    color: transparent;
-    margin: auto;
-  "
-  loading="lazy"
-  data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
-/>
--->
-
 ### With fade-in transition
 
-Wrap an img element in a div element with the BlurHash URL.
+Wrap the img element in the div element.
+
+The BlurHash URL should be assigned as `background-image` of the div element.
 
 ```html
 <div
@@ -224,33 +176,64 @@ Wrap an img element in a div element with the BlurHash URL.
 </div>
 -->
 
-### Lazy-loading BlurHash image
+### Using `data-blurhash` attribute
 
-To delay creating the BlurHash image, load the BlurHash URL in an img element.
+The BlurHash URL is not available until the ServiceWorker is ready.
+
+Therefore, when visiting the site for the first time, `background-image` cannot be loaded.
+
+As a workaround, generate `background-image` based on `data-blurhash` when the ServiceWorker is ready.
+
+```js
+navigator.serviceWorker
+  .register('/sw.js')
+  .then(() => navigator.serviceWorker.ready)
+  .then(() => {
+    const $elemList = document.querySelectorAll('[data-blurhash]');
+    for (const $elem of $elemList) {
+      const blurhash = $elem.dataset.blurhash;
+      $elem.style.backgroundSize = `100% 100%`;
+      $elem.style.backgroundImage = `url(/.blurhash/${encodeURIComponent(blurhash)})`;
+    }
+  });
+```
+
+```html
+<img
+  src="https://source.unsplash.com/HkGaG67usNE/597x398"
+  alt="Kinkaku-ji"
+  width="597"
+  height="398"
+  loading="lazy"
+  data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
+/>
+```
+
+<!--
+<img
+  src="https://deelay.me/3000/https://source.unsplash.com/HkGaG67usNE/597x398"
+  alt="Kinkaku-ji"
+  width="597"
+  height="398"
+  style="
+    width: 400px;
+    height: auto;
+    background-color: #0c8cd9;
+    color: transparent;
+    margin: auto;
+  "
+  loading="lazy"
+  data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
+/>
+-->
 
 ```html
 <div
   style="
-    position: relative;
     width: fit-content;
-    z-index: 0;
   "
+  data-blurhash="LmF~daR+NGWA_4RjRjWBkCadV@W;"
 >
-  <img
-    src="/.blurhash/LmF~daR%2BNGWA_4RjRjWBkCadV%40W%3B"
-    alt=""
-    width="32"
-    height="32"
-    style="
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: fill;
-      z-index: -1;
-    "
-    loading="lazy"
-    aria-hidden="true"
-  />
   <img
     src="https://source.unsplash.com/wPMvPMD9KBI/262x394"
     alt="Himeji castle"
@@ -270,32 +253,13 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
 <div
   class="image-wrapper"
   style="
-    position: relative;
     width: -moz-fit-content;
     width: fit-content;
     background-color: #262626;
-    z-index: 0;
     margin: auto;
   "
+  data-blurhash="LmF~daR+NGWA_4RjRjWBkCadV@W;"
 >
-  <img
-    src="/.blurhash/LmF~daR%2BNGWA_4RjRjWBkCadV%40W%3B"
-    alt=""
-    width="32"
-    height="32"
-    style="
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: fill;
-      z-index: -1;
-    "
-    loading="lazy"
-    aria-hidden="true"
-    onerror="this.remove();"
-  />
   <img
     src="https://deelay.me/3000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
     alt="Himeji castle"
