@@ -55,7 +55,7 @@ Add the following code to your ServiceWorker script.
 
 ```js
 // sw.js
-importScripts('https://unpkg.com/blurhash-sw@1.0.0');
+importScripts('https://unpkg.com/blurhash-sw@1.0.1');
 
 blurhashSW({
   routeUrl: '/.blurhash/:blurhash',
