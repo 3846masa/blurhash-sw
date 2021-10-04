@@ -38,7 +38,8 @@
 -->
 
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
-[![license](https://flat.badgen.net/badge/license/MIT/blue)](./LICENSE)
+[![filesize](https://flat.badgen.net/badgesize/gzip/file-url/unpkg.com/blurhash-sw@1.0.2/dist/index.js)](https://unpkg.com/blurhash-sw@1.0.2/dist/index.js)
+[![license](https://flat.badgen.net/badge/license/MIT/blue)](https://3846masa.mit-license.org)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
 
 The BlurHash API provided by ServiceWorker.
@@ -283,4 +284,4 @@ PRs accepted.
 
 ## License
 
-[MIT (c) 3846masa](./LICENSE)
+[MIT (c) 3846masa](https://3846masa.mit-license.org)
