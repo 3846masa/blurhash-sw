@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/3846masa/blurhash-sw/compare/v1.0.2...v1.0.3) (2021-10-04)
+
+
+### Bug Fixes
+
+* **docs:** update readme ([#7](https://github.com/3846masa/blurhash-sw/issues/7)) ([d1e0c2c](https://github.com/3846masa/blurhash-sw/commit/d1e0c2c06e399cba3b4489492ae3b5ff0b434ef5))
+
 ## [1.0.2](https://github.com/3846masa/blurhash-sw/compare/v1.0.1...v1.0.2) (2021-10-04)
 
 
