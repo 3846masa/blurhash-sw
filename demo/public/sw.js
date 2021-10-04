@@ -1,4 +1,4 @@
-importScripts('https://unpkg.com/blurhash-sw@0.0.0');
+importScripts('https://unpkg.com/blurhash-sw@1.0.0');
 
 blurhashSW({
   routeUrl: '/.blurhash/:blurhash',
