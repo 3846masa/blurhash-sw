@@ -17,8 +17,3 @@ body {
 h1 {
   text-align: center;
 }
-
-div.image-wrapper,
-img {
-  margin: auto;
-}

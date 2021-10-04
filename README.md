@@ -25,18 +25,9 @@
 />
 -->
 
-<p style="
-  display: flex;
-  gap: 4px;
-  justify-content: center;
-  align-items: center;
-">
-
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](./LICENSE)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
-
-</p>
 
 The BlurHash API provided by ServiceWorker.
 
@@ -110,6 +101,7 @@ Therefore, it will not work properly the first time you access the site.
     background-size: 100% 100%;
     background-image: url(/.blurhash/LGBEE%2CIr.At8t8IU-%3DR%2BR6R4OrIo);
     color: transparent;
+    margin: auto;
   "
   loading="lazy"
 />
@@ -157,6 +149,7 @@ navigator.serviceWorker
     height: auto;
     background-color: #0c8cd9;
     color: transparent;
+    margin: auto;
   "
   loading="lazy"
   data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
@@ -199,6 +192,7 @@ Wrap an img element in a div element with the BlurHash URL.
     background-color: #0c738c;
     background-size: 100% 100%;
     background-image: url(/.blurhash/LKF%23tH-psS%2C%3F3%3FoJWVNbIVs.%24*n%24);
+    margin: auto;
   "
 >
   <img
@@ -269,6 +263,7 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
     width: fit-content;
     background-color: #262626;
     z-index: 0;
+    margin: auto;
   "
 >
   <img
