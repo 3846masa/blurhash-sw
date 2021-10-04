@@ -16,8 +16,9 @@
     "url": "https://github.com/3846masa/blurhash-sw/issues"
   },
   "type": "commonjs",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
+  "browser": "./dist/index.js",
   "files": [
     "dist"
   ],
@@ -26,6 +27,7 @@
     "build:demo": "remark index.md -o demo/index.html",
     "test": "tsc --noEmit"
   },
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "@3846masa/bmp": "1.1.2",
     "blurhash": "1.1.4",
@@ -54,6 +56,6 @@
     "access": "public"
   },
   "exports": "./dist/index.mjs",
-  "jsdelivr": "./dist/index.iife.js",
-  "unpkg": "./dist/index.iife.js"
+  "jsdelivr": "./dist/index.js",
+  "unpkg": "./dist/index.js"
 }

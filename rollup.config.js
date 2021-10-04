@@ -9,7 +9,7 @@ const config = [
   {
     input: './src/index.ts',
     output: {
-      file: './dist/index.js',
+      file: './dist/index.cjs',
       format: 'commonjs',
     },
     plugins: [
@@ -28,11 +28,11 @@ const config = [
     plugins: [typescript(), terser()],
   },
   {
-    input: './src/iife.ts',
+    input: './src/index.ts',
     output: {
-      file: './dist/index.iife.js',
+      file: './dist/index.js',
       format: 'iife',
-      name: 'blurhashSW',
+      name: 'self',
       extend: true,
     },
     plugins: [
