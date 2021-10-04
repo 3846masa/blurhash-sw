@@ -3,11 +3,18 @@
 <img
   src="./assets/banner.jpg"
   alt="BlurHash SW"
+  data-hidden
+/>
+
+<!--
+<img
+  src="./assets/banner.jpg"
+  alt="BlurHash SW"
   width="1200"
   height="630"
   style="
     width: 600px;
-    height: 315px;
+    height: auto;
     background-color: #5A5E64;
     background-size: 100% 100%;
     background-image: url(/.blurhash/LKBg9%7B%5EjWBWV.Twwj%5Bof57IUs%3Aof);
@@ -16,9 +23,10 @@
   "
   loading="lazy"
 />
+-->
 
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
-[![license](https://flat.badgen.net/badge/license/MIT/blue)](LICENSE)
+[![license](https://flat.badgen.net/badge/license/MIT/blue)](./LICENSE)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
 
 The BlurHash API provided by ServiceWorker.

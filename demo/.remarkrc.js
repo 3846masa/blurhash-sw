@@ -1,21 +1,9 @@
-import { raw } from 'hast-util-raw';
-
 export default {
   plugins: [
     'remark-emoji',
     ['remark-rehype', { allowDangerousHtml: true }],
     'rehype-raw',
-    [
-      'rehype-rewrite',
-      {
-        rewrite: (node, index, parent) => {
-          if (node.type === 'comment') {
-            const parsed = raw({ type: 'raw', value: node.value });
-            parent.children.splice(index, 1, ...parsed.children);
-          }
-        },
-      },
-    ],
+    './rehype-rewrite.js',
     '@mapbox/rehype-prism',
     ['rehype-wrap', { wrapper: 'div.markdown-body' }],
     [
@@ -41,7 +29,7 @@ export default {
         pathname: '/blurhash-sw/',
       },
     ],
-    'rehype-preset-minify',
+    // 'rehype-preset-minify',
     'rehype-stringify',
   ],
 };
