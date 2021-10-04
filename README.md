@@ -8,7 +8,7 @@
 
 <!--
 <img
-  src="./assets/banner.jpg"
+  src="https://deelay.me/3000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
   alt="BlurHash SW"
   width="1200"
   height="630"
@@ -17,11 +17,11 @@
     height: auto;
     background-color: #5A5E64;
     background-size: 100% 100%;
-    background-image: url(/.blurhash/LKBg9%7B%5EjWBWV.Twwj%5Bof57IUs%3Aof);
     color: transparent;
     border-radius: 8px;
   "
   loading="lazy"
+  data-blurhash="LKBg9{^jWBWV.Twwj[of57IUs:of"
 />
 -->
 
@@ -287,6 +287,7 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
     "
     loading="lazy"
     aria-hidden="true"
+    onerror="this.remove();"
   />
   <img
     src="https://deelay.me/5000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
