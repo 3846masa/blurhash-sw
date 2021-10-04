@@ -7,22 +7,34 @@
 />
 
 <!--
-<img
-  src="https://deelay.me/3000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
-  alt="BlurHash SW"
-  width="1200"
-  height="630"
+<div
+  class="image-wrapper"
   style="
-    width: 600px;
-    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
     background-color: #5A5E64;
-    background-size: 100% 100%;
-    color: transparent;
     border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto 16px;
   "
-  loading="lazy"
   data-blurhash="LKBg9{^jWBWV.Twwj[of57IUs:of"
-/>
+>
+  <img
+    src="https://deelay.me/1000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
+    alt="BlurHash SW"
+    width="1200"
+    height="630"
+    style="
+      width: 600px;
+      height: auto;
+      margin: auto;
+      opacity: 0;
+      transition: ease-out 0.3s opacity;
+    "
+    onload="this.style.opacity=1"
+    loading="lazy"
+  />
+</div>
 -->
 
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
@@ -90,7 +102,7 @@ Therefore, it will not work properly the first time you access the site.
 
 <!--
 <img
-  src="https://deelay.me/5000/https://source.unsplash.com/alY6_OpdwRQ/793x529"
+  src="https://deelay.me/3000/https://source.unsplash.com/alY6_OpdwRQ/793x529"
   alt="Shibuya 109"
   width="793"
   height="529"
@@ -140,7 +152,7 @@ navigator.serviceWorker
 
 <!--
 <img
-  src="https://deelay.me/5000/https://source.unsplash.com/HkGaG67usNE/597x398"
+  src="https://deelay.me/3000/https://source.unsplash.com/HkGaG67usNE/597x398"
   alt="Kinkaku-ji"
   width="597"
   height="398"
@@ -196,7 +208,7 @@ Wrap an img element in a div element with the BlurHash URL.
   "
 >
   <img
-    src="https://deelay.me/5000/https://source.unsplash.com/7H77FWkK_x4/472x512"
+    src="https://deelay.me/3000/https://source.unsplash.com/7H77FWkK_x4/472x512"
     alt="Tokyo tower"
     width="472"
     height="512"
@@ -285,7 +297,7 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
     onerror="this.remove();"
   />
   <img
-    src="https://deelay.me/5000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
+    src="https://deelay.me/3000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
     alt="Himeji castle"
     width="262"
     height="394"
