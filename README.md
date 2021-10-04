@@ -25,9 +25,18 @@
 />
 -->
 
+<p style="
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+">
+
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](./LICENSE)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
+
+</p>
 
 The BlurHash API provided by ServiceWorker.
 
