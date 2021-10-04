@@ -7,36 +7,39 @@
 />
 
 <!--
-<img
-  src="https://deelay.me/3000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
-  alt="BlurHash SW"
-  width="1200"
-  height="630"
+<div
+  class="image-wrapper"
   style="
-    width: 600px;
-    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
     background-color: #5A5E64;
-    background-size: 100% 100%;
-    color: transparent;
     border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto 16px;
   "
-  loading="lazy"
   data-blurhash="LKBg9{^jWBWV.Twwj[of57IUs:of"
-/>
+>
+  <img
+    src="https://deelay.me/1000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
+    alt="BlurHash SW"
+    width="1200"
+    height="630"
+    style="
+      width: 600px;
+      height: auto;
+      margin: auto;
+      opacity: 0;
+      transition: ease-out 0.3s opacity;
+    "
+    onload="this.style.opacity=1"
+    loading="lazy"
+  />
+</div>
 -->
-
-<p style="
-  display: flex;
-  gap: 4px;
-  justify-content: center;
-  align-items: center;
-">
 
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](./LICENSE)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
-
-</p>
 
 The BlurHash API provided by ServiceWorker.
 
@@ -99,7 +102,7 @@ Therefore, it will not work properly the first time you access the site.
 
 <!--
 <img
-  src="https://deelay.me/5000/https://source.unsplash.com/alY6_OpdwRQ/793x529"
+  src="https://deelay.me/3000/https://source.unsplash.com/alY6_OpdwRQ/793x529"
   alt="Shibuya 109"
   width="793"
   height="529"
@@ -110,6 +113,7 @@ Therefore, it will not work properly the first time you access the site.
     background-size: 100% 100%;
     background-image: url(/.blurhash/LGBEE%2CIr.At8t8IU-%3DR%2BR6R4OrIo);
     color: transparent;
+    margin: auto;
   "
   loading="lazy"
 />
@@ -148,7 +152,7 @@ navigator.serviceWorker
 
 <!--
 <img
-  src="https://deelay.me/5000/https://source.unsplash.com/HkGaG67usNE/597x398"
+  src="https://deelay.me/3000/https://source.unsplash.com/HkGaG67usNE/597x398"
   alt="Kinkaku-ji"
   width="597"
   height="398"
@@ -157,6 +161,7 @@ navigator.serviceWorker
     height: auto;
     background-color: #0c8cd9;
     color: transparent;
+    margin: auto;
   "
   loading="lazy"
   data-blurhash="L%C%zEXANengKnkCj]n$NMjXsoW?"
@@ -199,10 +204,11 @@ Wrap an img element in a div element with the BlurHash URL.
     background-color: #0c738c;
     background-size: 100% 100%;
     background-image: url(/.blurhash/LKF%23tH-psS%2C%3F3%3FoJWVNbIVs.%24*n%24);
+    margin: auto;
   "
 >
   <img
-    src="https://deelay.me/5000/https://source.unsplash.com/7H77FWkK_x4/472x512"
+    src="https://deelay.me/3000/https://source.unsplash.com/7H77FWkK_x4/472x512"
     alt="Tokyo tower"
     width="472"
     height="512"
@@ -269,6 +275,7 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
     width: fit-content;
     background-color: #262626;
     z-index: 0;
+    margin: auto;
   "
 >
   <img
@@ -290,7 +297,7 @@ To delay creating the BlurHash image, load the BlurHash URL in an img element.
     onerror="this.remove();"
   />
   <img
-    src="https://deelay.me/5000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
+    src="https://deelay.me/3000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
     alt="Himeji castle"
     width="262"
     height="394"

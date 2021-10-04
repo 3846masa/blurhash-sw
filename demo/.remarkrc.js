@@ -29,7 +29,7 @@ export default {
         pathname: '/blurhash-sw/',
       },
     ],
-    // 'rehype-preset-minify',
+    'rehype-preset-minify',
     'rehype-stringify',
   ],
 };

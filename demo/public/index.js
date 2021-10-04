@@ -1,13 +1,13 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/blurhash-sw/sw.js', { scope: '/blurhash-sw/' })
+    .register('./sw.js')
     .then(() => navigator.serviceWorker.ready)
     .then(() => {
-      const $imgList = document.querySelectorAll('img[data-blurhash]');
-      for (const $img of $imgList) {
-        const blurhash = $img.dataset.blurhash;
-        $img.style.backgroundSize = `100% 100%`;
-        $img.style.backgroundImage = `url(/.blurhash/${encodeURIComponent(blurhash)})`;
+      const $elemList = document.querySelectorAll('[data-blurhash]');
+      for (const $elem of $elemList) {
+        const blurhash = $elem.dataset.blurhash;
+        $elem.style.backgroundSize = `100% 100%`;
+        $elem.style.backgroundImage = `url(/.blurhash/${encodeURIComponent(blurhash)})`;
       }
     });
 }
