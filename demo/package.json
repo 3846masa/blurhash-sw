@@ -13,7 +13,7 @@
     "rehype-stringify": "9.0.2",
     "rehype-wrap": "1.0.10",
     "remark-cli": "10.0.0",
-    "remark-emoji": "3.0.1",
+    "remark-emoji": "3.0.2",
     "remark-rehype": "10.0.0",
     "unist-util-flatmap": "1.0.0",
     "unist-util-remove": "3.1.0"
