@@ -2641,10 +2641,10 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-rehype-document@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-6.0.0.tgz#ddcb02b54ddd29c25844f17ff87216b407a5e4e0"
-  integrity sha512-jFD/kACoKbBHYrhkdAHl8afUn/2L5QYVe5JxPAjOPMKLvqE9I3HeLrZp8Z5gs3QuNy47ROga23HJKh8SxAgpvQ==
+rehype-document@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-6.0.1.tgz#0dcb1e91f8c6f45ded0a56f57f74447243e97eba"
+  integrity sha512-Uz36ekagn5MilQNqNCjmoQBqGHPwr8P39v3N09l38FGaBh5pPEhRQnQb8sG065Mhncs0wEcBSNLN+sOkjFhabQ==
   dependencies:
     "@types/hast" "^2.0.0"
     hastscript "^7.0.0"
