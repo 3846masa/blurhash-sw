@@ -2650,10 +2650,10 @@ rehype-document@6.0.1:
     hastscript "^7.0.0"
     unified "^10.0.0"
 
-rehype-meta@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/rehype-meta/-/rehype-meta-3.2.0.tgz#a34da327afaf66642656e1233a12b3763b59bb28"
-  integrity sha512-TCnjilLMe1CkeJOCww5MEUJFczxrRWkXF+P4hXIKpOOY3Di5B7Wv7BHKRN7GQQePL/71Xh9Wtc1y60fkiIXuqA==
+rehype-meta@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/rehype-meta/-/rehype-meta-3.2.1.tgz#78f4b3bae65ef76ea239c632b3535508d619a057"
+  integrity sha512-5rXJicoFfnuXLn+bKvVSuj/6g8ebC5Kp0b44IsW5Bk6NoMlbd6bTiOqozqefnoU74ZhAMN9pRfswmdfxMfSSFw==
   dependencies:
     "@types/hast" "^2.0.0"
     hast-util-from-selector "^2.0.0"
