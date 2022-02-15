@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/3846masa/blurhash-sw/compare/v1.0.3...v1.0.4) (2022-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency blurhash to v1.1.5 ([#63](https://github.com/3846masa/blurhash-sw/issues/63)) ([4083ed8](https://github.com/3846masa/blurhash-sw/commit/4083ed899252a8b84f29f186abbf59b3d23e2c30))
+
 ## [1.0.3](https://github.com/3846masa/blurhash-sw/compare/v1.0.2...v1.0.3) (2021-10-04)
 
 
