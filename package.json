@@ -30,7 +30,7 @@
   "types": "./dist/index.d.ts",
   "dependencies": {
     "@3846masa/bmp": "1.1.2",
-    "blurhash": "1.1.4",
+    "blurhash": "1.1.5",
     "regexparam": "2.0.0"
   },
   "devDependencies": {
