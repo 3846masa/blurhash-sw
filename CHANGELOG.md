@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/3846masa/blurhash-sw/compare/v1.0.4...v1.0.5) (2022-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v3 ([#69](https://github.com/3846masa/blurhash-sw/issues/69)) ([3ed691f](https://github.com/3846masa/blurhash-sw/commit/3ed691fac052f51678b9208466817e3bdf36922a))
+
 ## [1.0.4](https://github.com/3846masa/blurhash-sw/compare/v1.0.3...v1.0.4) (2022-02-15)
 
 
