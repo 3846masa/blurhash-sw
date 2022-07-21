@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "@mapbox/rehype-prism": "0.8.0",
-    "hast-util-raw": "7.2.1",
+    "hast-util-raw": "7.2.2",
     "rehype-document": "6.0.1",
     "rehype-meta": "3.3.0",
     "rehype-preset-minify": "6.0.0",
