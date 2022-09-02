@@ -3062,10 +3062,10 @@ rehype-stringify@9.0.3:
     hast-util-to-html "^8.0.0"
     unified "^10.0.0"
 
-rehype-wrap@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/rehype-wrap/-/rehype-wrap-1.0.10.tgz#cefb113a4687a5be13ee4d036497ebb8f842577b"
-  integrity sha512-gI4/T6TmIHxEu+z+2QaGVJJ+4vD26Q9sXxYHZzIG3byv1GsAz37nmp6fdCVzrRE9YcnsVeA/THJwlJcCu5fUDQ==
+rehype-wrap@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/rehype-wrap/-/rehype-wrap-1.1.0.tgz#49980d0071f8d34a7601e85ea3236ece8de2c29e"
+  integrity sha512-wu1bi74XSvVy2Nwy0AQd5kLwIsk+a8qgDWUxYkfvoh9qQ/CExAE3mx7OjD6r0v70bUSZF3irypeMVmpNFYj0Tg==
   dependencies:
     hast-util-parse-selector "^2.2.4"
     hast-util-select "^4.0.0"
