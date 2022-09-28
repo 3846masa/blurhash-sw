@@ -1,3 +1,5 @@
+## [1.0.10](https://github.com/3846masa/blurhash-sw/compare/v1.0.9...v1.0.10) (2022-09-28)
+
 ## [1.0.9](https://github.com/3846masa/blurhash-sw/compare/v1.0.8...v1.0.9) (2022-09-27)
 
 ## [1.0.8](https://github.com/3846masa/blurhash-sw/compare/v1.0.7...v1.0.8) (2022-09-13)
