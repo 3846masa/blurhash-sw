@@ -701,10 +701,10 @@ binary-extensions@^2.2.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-blurhash@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-2.0.1.tgz#7f134ad0cf3cbb6bcceb81ea51b82e1423009dca"
-  integrity sha512-qAJW99ZIEVJqLKvR6EUtMavaalYiFgfHNvwO6eiqHE7RTBZYGQLPJvzs4WlnqSQPxZgqSPH/n4kRJIHzb/Y7dg==
+blurhash@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-2.0.2.tgz#ed52f35c4225c7b97f4c8ff287190028ae532742"
+  integrity sha512-aYWeITmNkjtnR6X7wNgoIJ198qJc3w5yaIwLa7yxsV7/BMnWDWWgugBNvImSCcWNdVHhpNFIJgEb5jzhV4rkHA==
 
 bottleneck@^2.18.1:
   version "2.19.5"
