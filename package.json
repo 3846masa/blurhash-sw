@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c rollup.config.mjs",
     "build:demo": "remark index.md -o demo/index.html",
     "test": "tsc --noEmit"
   },
