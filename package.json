@@ -23,7 +23,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c rollup.config.mjs",
     "build:demo": "remark index.md -o demo/index.html",
     "test": "tsc --noEmit"
   },
@@ -41,7 +41,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/serviceworker": "0.0.53",
-    "rollup": "2.79.1",
+    "rollup": "3.2.3",
     "rollup-plugin-license": "2.8.2",
     "rollup-plugin-terser": "7.0.2",
     "semantic-release": "19.0.5",
