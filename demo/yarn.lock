@@ -3704,10 +3704,10 @@ unist-util-position@^4.0.0:
   resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.1.tgz#f8484b2da19a897a0180556d160c28633070dbb9"
   integrity sha512-mgy/zI9fQ2HlbOtTdr2w9lhVaiFUHWQnZrFF2EUoVOqtAUdzqMtNiD99qA5a1IcjWVR8O6aVYE9u7Z2z1v0SQA==
 
-unist-util-remove@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/unist-util-remove/-/unist-util-remove-3.1.0.tgz#8042577e151dac989b7517976bfe4bac58f76ccd"
-  integrity sha512-rO/sIghl13eN8irs5OBN2a4RC10MsJdiePCfwrvnzGtgIbHcDXr2REr0qi9F2r/CIb1r9FyyFmcMRIGs+EyUFw==
+unist-util-remove@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/unist-util-remove/-/unist-util-remove-3.1.1.tgz#8bfa181aff916bd32a4ed30b3ed76d0c21c077df"
+  integrity sha512-kfCqZK5YVY5yEa89tvpl7KnBBHu2c6CzMkqHUrlOqaRgGOMp0sMvwWOVrbAtj03KhovQB7i96Gda72v/EFE0vw==
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
