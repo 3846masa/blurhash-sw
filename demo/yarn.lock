@@ -1325,12 +1325,13 @@ hast-util-parse-selector@^4.0.0:
   dependencies:
     "@types/hast" "^3.0.0"
 
-hast-util-raw@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/hast-util-raw/-/hast-util-raw-9.0.0.tgz#3fd8105cd47db075f7d337867a667a2f275c0114"
-  integrity sha512-HRjOZeaRAOM66qU/zmJ1fI/dKQovAFi9Fpq0bBW/6P/ZDdyQnFyu/ZMPk+CXmUEgE0AaqP1HNgTdg+N5JyvNeA==
+hast-util-raw@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/hast-util-raw/-/hast-util-raw-9.0.1.tgz#2ba8510e4ed2a1e541cde2a4ebb5c38ab4c82c2d"
+  integrity sha512-5m1gmba658Q+lO5uqL5YNGQWeh1MYWZbZmWrM5lncdcuiXuo5E2HT/CIOp0rLF8ksfSwiCVJ3twlgVRyTGThGA==
   dependencies:
     "@types/hast" "^3.0.0"
+    "@types/unist" "^3.0.0"
     "@ungap/structured-clone" "^1.0.0"
     hast-util-from-parse5 "^8.0.0"
     hast-util-to-parse5 "^8.0.0"
