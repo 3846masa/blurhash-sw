@@ -1300,13 +1300,6 @@ hast-util-parse-selector@^2.0.0, hast-util-parse-selector@^2.2.4:
   resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.2.5.tgz#d57c23f4da16ae3c63b3b6ca4616683313499c3a"
   integrity sha512-7j6mrk/qqkSehsM92wQjdIgWM2/BW61u/53G6xmC8i1OmEdKLHbk419QKQUjz6LglWsfqoiHmyMRkP1BGjecNQ==
 
-hast-util-parse-selector@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-3.1.0.tgz#a519e27e8b61bd5a98fad494ed06131ce68d9c3f"
-  integrity sha512-AyjlI2pTAZEOeu7GeBPZhROx0RHBnydkQIXlhnFzDi0qfXTmGUWoCYZtomHbrdrheV4VFUlPcfJ6LMF5T6sQzg==
-  dependencies:
-    "@types/hast" "^2.0.0"
-
 hast-util-parse-selector@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-4.0.0.tgz#352879fa86e25616036037dd8931fb5f34cb4a27"
@@ -1443,17 +1436,6 @@ hastscript@^6.0.0:
     hast-util-parse-selector "^2.0.0"
     property-information "^5.0.0"
     space-separated-tokens "^1.0.0"
-
-hastscript@^7.0.0:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/hastscript/-/hastscript-7.0.2.tgz#d811fc040817d91923448a28156463b2e40d590a"
-  integrity sha512-uA8ooUY4ipaBvKcMuPehTAB/YfFLSSzCwFSwT6ltJbocFUKH/GDHLN+tflq7lSRf9H86uOuxOFkh1KgIy3Gg2g==
-  dependencies:
-    "@types/hast" "^2.0.0"
-    comma-separated-tokens "^2.0.0"
-    hast-util-parse-selector "^3.0.0"
-    property-information "^6.0.0"
-    space-separated-tokens "^2.0.0"
 
 hastscript@^8.0.0:
   version "8.0.0"
@@ -2869,14 +2851,15 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-rehype-document@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-6.1.0.tgz#7a0f10efebe70f54f53c53a788ce8f61dac02b39"
-  integrity sha512-znEODHIhSjfBlvFO6z9k/6z7lJor1hqqpYy15W5vj/VLxcWsCL22hBdDSai5tYOymmGOInDLvepmS+6MIIXjFg==
+rehype-document@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-7.0.1.tgz#5ff1943a1f19a09af89f44fbdcceda0dbfd294f0"
+  integrity sha512-qM+KvIVSfkmR/Bz/g7j091G9U4ZeOcn1bNqMhJG7GQJgr/5ymTyM6qKpkQPQaGfVvv+Lrtj/ZwobknzxyPSwkg==
   dependencies:
-    "@types/hast" "^2.0.0"
-    hastscript "^7.0.0"
-    unified "^10.0.0"
+    "@types/hast" "^3.0.0"
+    hastscript "^8.0.0"
+    unified "^11.0.0"
+    vfile "^6.0.0"
 
 rehype-meta@4.0.0:
   version "4.0.0"
