@@ -34,7 +34,7 @@
     "regexparam": "2.0.1"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "25.0.4",
+    "@rollup/plugin-commonjs": "25.0.5",
     "@rollup/plugin-node-resolve": "15.2.1",
     "@rollup/plugin-typescript": "11.1.4",
     "@semantic-release/changelog": "6.0.3",
