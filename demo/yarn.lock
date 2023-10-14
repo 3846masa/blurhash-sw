@@ -2816,10 +2816,10 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-rehype-document@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-7.0.1.tgz#5ff1943a1f19a09af89f44fbdcceda0dbfd294f0"
-  integrity sha512-qM+KvIVSfkmR/Bz/g7j091G9U4ZeOcn1bNqMhJG7GQJgr/5ymTyM6qKpkQPQaGfVvv+Lrtj/ZwobknzxyPSwkg==
+rehype-document@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-7.0.2.tgz#230bc7ff8cfcaa097fbaf65096a6f56b61165665"
+  integrity sha512-7ih+zNlNNB5GwEdtd/h6FG1GEMb9xlJpIFovgoSMPVYJ8zernXyZ9cOsHCv6T2iHLgwy8ZgeIoH/8GGcbZmFww==
   dependencies:
     "@types/hast" "^3.0.0"
     hastscript "^8.0.0"
