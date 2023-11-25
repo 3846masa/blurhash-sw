@@ -40,7 +40,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/serviceworker": "0.0.77",
+    "@types/serviceworker": "0.0.78",
     "rollup": "3.29.4",
     "rollup-plugin-license": "3.2.0",
     "rollup-plugin-terser": "7.0.2",
