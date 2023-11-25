@@ -1619,10 +1619,10 @@ refractor@^3.4.0:
     parse-entities "^2.0.0"
     prismjs "~1.24.0"
 
-rehype-document@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-7.0.2.tgz#230bc7ff8cfcaa097fbaf65096a6f56b61165665"
-  integrity sha512-7ih+zNlNNB5GwEdtd/h6FG1GEMb9xlJpIFovgoSMPVYJ8zernXyZ9cOsHCv6T2iHLgwy8ZgeIoH/8GGcbZmFww==
+rehype-document@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/rehype-document/-/rehype-document-7.0.3.tgz#c0674e3f217f8fccc02ced2691a299f511084895"
+  integrity sha512-g5zq6i2FwWVBVdyVi0Jw/5MRvsHj3wuJCn+QeyOjm29QBpTG4r1iUElyH9GhfWx5fB27ZEApA53RdAiYGBb4zQ==
   dependencies:
     "@types/hast" "^3.0.0"
     hastscript "^8.0.0"
