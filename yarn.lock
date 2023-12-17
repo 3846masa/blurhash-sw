@@ -535,10 +535,10 @@
   resolved "https://registry.yarnpkg.com/@types/retry/-/retry-0.12.1.tgz#d8f1c0d0dc23afad6dc16a9e993a0865774b4065"
   integrity sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==
 
-"@types/serviceworker@0.0.80":
-  version "0.0.80"
-  resolved "https://registry.yarnpkg.com/@types/serviceworker/-/serviceworker-0.0.80.tgz#895975acafd528951c9b15ca6d5ff87f3f411438"
-  integrity sha512-ypJC2o88zfbyQqLQmKqYpBQx7SLXAXxxzQdkmg1lERZmzJ9LxOGKEw1kn7nQVZjHPQkYsWVSHyIBiZ50uQujlA==
+"@types/serviceworker@0.0.81":
+  version "0.0.81"
+  resolved "https://registry.yarnpkg.com/@types/serviceworker/-/serviceworker-0.0.81.tgz#d5c00f3aa957f35c21fd12e3928c60a8a58d7542"
+  integrity sha512-XZ9gX1AWmOZQyvdvZeAAcWwz1dUqoqE9uXgt6yrVNLpnYWZtTDOUzGyfctsyJtcxoWtJ6U60iwcWYfweNwclCA==
 
 JSONStream@^1.0.4:
   version "1.3.5"
