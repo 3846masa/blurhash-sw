@@ -20,7 +20,7 @@
   data-blurhash="LKBg9{^jWBWV.Twwj[of57IUs:of"
 >
   <img
-    src="https://deelay.me/1000/https://3846masa.github.io/blurhash-sw/assets/banner.jpg"
+    src="https://3846masa.github.io/blurhash-sw/assets/banner.jpg?__delay__=1000"
     alt="BlurHash SW"
     width="1200"
     height="630"
@@ -102,7 +102,7 @@ You should encode the BlurHash hash contained in the URL.
 
 <!--
 <img
-  src="https://deelay.me/3000/https://source.unsplash.com/alY6_OpdwRQ/793x529"
+  src="https://source.unsplash.com/alY6_OpdwRQ/793x529?__delay__=3000"
   alt="Shibuya 109"
   width="793"
   height="529"
@@ -161,7 +161,7 @@ The BlurHash URL should be assigned as `background-image` of the div element.
   "
 >
   <img
-    src="https://deelay.me/3000/https://source.unsplash.com/7H77FWkK_x4/472x512"
+    src="https://source.unsplash.com/7H77FWkK_x4/472x512?__delay__=3000"
     alt="Tokyo tower"
     width="472"
     height="512"
@@ -212,7 +212,7 @@ navigator.serviceWorker
 
 <!--
 <img
-  src="https://deelay.me/3000/https://source.unsplash.com/HkGaG67usNE/597x398"
+  src="https://source.unsplash.com/HkGaG67usNE/597x398?__delay__=3000"
   alt="Kinkaku-ji"
   width="597"
   height="398"
@@ -262,7 +262,7 @@ navigator.serviceWorker
   data-blurhash="LmF~daR+NGWA_4RjRjWBkCadV@W;"
 >
   <img
-    src="https://deelay.me/3000/https://source.unsplash.com/wPMvPMD9KBI/262x394"
+    src="https://source.unsplash.com/wPMvPMD9KBI/262x394?__delay__=3000"
     alt="Himeji castle"
     width="262"
     height="394"
