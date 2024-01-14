@@ -12,8 +12,8 @@ dependencies:
     specifier: 2.0.5
     version: 2.0.5
   regexparam:
-    specifier: 2.0.2
-    version: 2.0.2
+    specifier: 3.0.0
+    version: 3.0.0
 
 devDependencies:
   '@3846masa/configs':
@@ -3382,8 +3382,8 @@ packages:
       set-function-name: 2.0.1
     dev: true
 
-  /regexparam@2.0.2:
-    resolution: {integrity: sha512-A1PeDEYMrkLrfyOwv2jwihXbo9qxdGD3atBYQA9JJgreAx8/7rC6IUkWOw2NQlOxLp2wL0ifQbh1HuidDfYA6w==}
+  /regexparam@3.0.0:
+    resolution: {integrity: sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==}
     engines: {node: '>=8'}
     dev: false
 
