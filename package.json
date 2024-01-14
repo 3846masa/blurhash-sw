@@ -1,6 +1,6 @@
 {
   "name": "blurhash-sw",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "The BlurHash API provided by ServiceWorker",
   "keywords": [
     "blurhash",

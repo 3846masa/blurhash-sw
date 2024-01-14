@@ -38,7 +38,7 @@
 -->
 
 [![npm](https://flat.badgen.net/npm/v/blurhash-sw)](https://www.npmjs.com/package/blurhash-sw)
-[![filesize](https://flat.badgen.net/badgesize/gzip/file-url/unpkg.com/blurhash-sw@1.0.14/dist/index.js)](https://unpkg.com/blurhash-sw@1.0.14/dist/index.js)
+[![filesize](https://flat.badgen.net/badgesize/gzip/file-url/unpkg.com/blurhash-sw@1.0.15/dist/index.js)](https://unpkg.com/blurhash-sw@1.0.15/dist/index.js)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](https://3846masa.mit-license.org)
 [![standard-readme compliant](https://flat.badgen.net/badge/readme%20style/standard/green)](https://github.com/RichardLitt/standard-readme)
 
@@ -59,7 +59,7 @@ Add the following code to your ServiceWorker script.
 
 ```js
 // sw.js
-importScripts('https://unpkg.com/blurhash-sw@1.0.14/dist/index.js');
+importScripts('https://unpkg.com/blurhash-sw@1.0.15/dist/index.js');
 
 blurhashSW({
   routeUrl: '/.blurhash/:blurhash',

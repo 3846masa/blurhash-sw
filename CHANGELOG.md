@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/3846masa/blurhash-sw/compare/v1.0.14...v1.0.15) (2024-01-14)
+
+
+### Bug Fixes
+
+* **npm:** update dependency regexparam to v3 ([#374](https://github.com/3846masa/blurhash-sw/issues/374)) ([6cabc24](https://github.com/3846masa/blurhash-sw/commit/6cabc24bf01a0cb7f26114a920fd88a49c8ed496))
+
 ## [1.0.14](https://github.com/3846masa/blurhash-sw/compare/v1.0.13...v1.0.14) (2023-12-04)
 
 ## [1.0.13](https://github.com/3846masa/blurhash-sw/compare/v1.0.12...v1.0.13) (2023-02-17)
