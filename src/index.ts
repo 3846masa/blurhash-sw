@@ -61,4 +61,5 @@ function blurhashSW({ routeUrl, width, height }: BlurhashSWOptions): void {
   self.addEventListener('fetch', handler);
 }
 
-export { BlurhashSWOptions, blurhashSW };
+export type { BlurhashSWOptions };
+export { blurhashSW };
