@@ -14,16 +14,18 @@ const remarkRewrite = () => {
           return [node];
         }),
       )
-      .then((tree) =>
+      .then((tree) => {
         remove(tree, (node) => {
           return node.type === 'element' && 'dataHidden' in node.properties;
-        }),
-      )
-      .then((tree) =>
+        });
+        return tree;
+      })
+      .then((tree) => {
         remove(tree, (node) => {
           return node.type === 'element' && node.tagName === 'p' && node.children.length === 0;
-        }),
-      );
+        });
+        return tree;
+      });
   };
 };
 

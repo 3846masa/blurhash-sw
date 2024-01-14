@@ -1,33 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "timezone": "Asia/Tokyo",
-  "schedule": ["after 8:00 pm"],
-  "reviewers": ["3846masa"],
-  "labels": ["dependencies"],
-  "semanticCommits": "enabled",
-  "semanticCommitType": "chore",
-  "semanticCommitScope": "deps",
+  "extends": ["github>3846masa/configs//renovate/default"],
   "packageRules": [
-    {
-      "matchManagers": ["npm"],
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "npm-deps"
-    },
-    {
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["devDependencies"],
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "npm-deps-dev"
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "stabilityDays": 3,
-      "automerge": false
-    },
     {
       "groupName": "semantic-release",
       "matchPackagePatterns": ["^semantic-release$", "^@semantic-release/"]

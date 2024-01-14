@@ -11,14 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: pnpm/action-setup@d882d12c64e032187b2edb46d3a0d003b7a43598 # v2.4.0
+        with:
+          version: latest
       - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
         with:
-          node-version: '16'
-          cache: yarn
-          cache-dependency-path: ./demo/yarn.lock
-      - run: yarn install --frozen-lockfile
+          node-version-file: .node-version
+          cache: pnpm
+          cache-dependency-path: ./demo/pnpm-lock.yaml
+      - run: pnpm install
         working-directory: ./demo
-      - run: yarn build
+      - run: pnpm build
         working-directory: ./demo
       - uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847 # v3.9.3
         with:
