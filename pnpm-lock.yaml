@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#6ec67f0feac1d384216c6fcc8e5c8e924c85f759
-    version: github.com/3846masa/configs/6ec67f0feac1d384216c6fcc8e5c8e924c85f759
+    specifier: github:3846masa/configs#dab04907ed879f16851b85b46db7a3878830456c
+    version: github.com/3846masa/configs/dab04907ed879f16851b85b46db7a3878830456c
   '@rollup/plugin-commonjs':
     specifier: 25.0.7
     version: 25.0.7(rollup@4.10.0)
@@ -4444,8 +4444,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/6ec67f0feac1d384216c6fcc8e5c8e924c85f759:
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/6ec67f0feac1d384216c6fcc8e5c8e924c85f759}
+  github.com/3846masa/configs/dab04907ed879f16851b85b46db7a3878830456c:
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/dab04907ed879f16851b85b46db7a3878830456c}
     name: '@3846masa/configs'
     version: 1.0.308
     dependencies:
