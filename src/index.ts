@@ -1,14 +1,14 @@
-import { parse } from 'regexparam';
-import { decode, isBlurhashValid } from 'blurhash';
 import { convert } from '@3846masa/bmp';
+import { decode, isBlurhashValid } from 'blurhash';
+import { parse } from 'regexparam';
 
 type BlurhashSWOptions = {
+  height: number;
   routeUrl: string;
   width: number;
-  height: number;
 };
 
-function blurhashSW({ routeUrl, width, height }: BlurhashSWOptions): void {
+function blurhashSW({ height, routeUrl, width }: BlurhashSWOptions): void {
   if (!Number.isInteger(width) || !Number.isInteger(height)) {
     throw new Error('width and height should be intergers.');
   }
@@ -33,27 +33,28 @@ function blurhashSW({ routeUrl, width, height }: BlurhashSWOptions): void {
     }
 
     const matches = routePathPattern.exec(url.pathname);
-    if (matches === null) {
+    if (matches == null) {
       return;
     }
 
     const blurhash = decodeURIComponent(matches[keyIndex + 1] ?? '');
-    const { result: isValid, errorReason } = isBlurhashValid(blurhash);
+    const { errorReason, result: isValid } = isBlurhashValid(blurhash);
 
     if (!isValid) {
-      return ev.respondWith(new Response(errorReason, { status: 400 }));
+      ev.respondWith(new Response(errorReason, { status: 400 }));
+      return;
     }
 
     const buffer = convert({
       data: decode(blurhash, width, height),
-      width,
       height,
+      width,
     });
 
-    return ev.respondWith(
+    ev.respondWith(
       new Response(buffer, {
-        status: 200,
         headers: { 'content-type': 'image/bmp' },
+        status: 200,
       }),
     );
   }

@@ -1,18 +1,18 @@
 {
-  "extends": "@3846masa/configs/tsconfig.json",
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["esnext", "webworker"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "types": ["@types/serviceworker"],
     "declaration": true,
-    "outDir": "./dist",
     "declarationDir": "./",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "lib": ["esnext", "webworker"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "types": ["@types/serviceworker"]
   },
-  "exclude": ["./dist"],
-  "include": ["./src"]
+  "exclude": ["./dist", "./demo"],
+  "extends": "@3846masa/configs/typescript/tsconfig.json",
+  "include": ["**/*", "**/.*"]
 }
