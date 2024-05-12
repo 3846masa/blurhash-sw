@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#28af521b8f1951c525e45189d3938fdb6294f64d
-    version: github.com/3846masa/configs/28af521b8f1951c525e45189d3938fdb6294f64d(@typescript-eslint/parser@7.8.0)
+    specifier: github:3846masa/configs#c2529a905cc60d13b110fb1f4cab5ca4486da4ac
+    version: github.com/3846masa/configs/c2529a905cc60d13b110fb1f4cab5ca4486da4ac(@typescript-eslint/parser@7.8.0)
   '@rollup/plugin-commonjs':
     specifier: 25.0.7
     version: 25.0.7(rollup@4.17.2)
@@ -2376,8 +2376,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /globals@15.1.0:
-    resolution: {integrity: sha512-926gJqg+4mkxwYKiFvoomM4J0kWESfk3qfTvRL2/oc/tK/eTDBbrfcKnSa2KtfdxB5onoL7D3A3qIHQFpd4+UA==}
+  /globals@15.2.0:
+    resolution: {integrity: sha512-FQ5YwCHZM3nCmtb5FzEWwdUc9K5d3V/w9mzcz8iGD1gC/aOTHc6PouYu0kkKipNJqHAT7m51sqzQjEjIP+cK0A==}
     engines: {node: '>=18'}
     dev: true
 
@@ -4539,11 +4539,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/28af521b8f1951c525e45189d3938fdb6294f64d(@typescript-eslint/parser@7.8.0):
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/28af521b8f1951c525e45189d3938fdb6294f64d}
-    id: github.com/3846masa/configs/28af521b8f1951c525e45189d3938fdb6294f64d
+  github.com/3846masa/configs/c2529a905cc60d13b110fb1f4cab5ca4486da4ac(@typescript-eslint/parser@7.8.0):
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/c2529a905cc60d13b110fb1f4cab5ca4486da4ac}
+    id: github.com/3846masa/configs/c2529a905cc60d13b110fb1f4cab5ca4486da4ac
     name: '@3846masa/configs'
-    version: 1.0.372
+    version: 1.0.373
     dependencies:
       '@eslint/js': 9.2.0
       '@tsconfig/strictest': 2.0.5
@@ -4554,7 +4554,7 @@ packages:
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.8.0)(eslint-import-resolver-typescript@3.6.1)(eslint@9.2.0)
       eslint-plugin-sort: 3.0.2(eslint@9.2.0)(typescript@5.4.5)
       eslint-plugin-unicorn: 52.0.0(eslint@9.2.0)
-      globals: 15.1.0
+      globals: 15.2.0
       prettier: 3.2.5
       prettier-plugin-packagejson: 2.5.0(prettier@3.2.5)
       prettier-plugin-sort-json: 4.0.0(prettier@3.2.5)
