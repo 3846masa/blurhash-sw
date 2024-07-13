@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#41fd7721fc378affb3939d47ea8003abf8ac61d5
-    version: github.com/3846masa/configs/41fd7721fc378affb3939d47ea8003abf8ac61d5(@typescript-eslint/parser@7.16.0)
+    specifier: github:3846masa/configs#6f2217cc5b2beb1ed6732ef56415445a5f030bfb
+    version: github.com/3846masa/configs/6f2217cc5b2beb1ed6732ef56415445a5f030bfb(@typescript-eslint/parser@7.16.0)
   '@rollup/plugin-commonjs':
     specifier: 26.0.1
     version: 26.0.1(rollup@4.18.1)
@@ -1120,12 +1120,6 @@ packages:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       acorn: 8.12.1
-    dev: true
-
-  /acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
     dev: true
 
   /acorn@8.12.1:
@@ -4219,7 +4213,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.11.3
+      acorn: 8.12.1
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
@@ -4564,11 +4558,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/41fd7721fc378affb3939d47ea8003abf8ac61d5(@typescript-eslint/parser@7.16.0):
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/41fd7721fc378affb3939d47ea8003abf8ac61d5}
-    id: github.com/3846masa/configs/41fd7721fc378affb3939d47ea8003abf8ac61d5
+  github.com/3846masa/configs/6f2217cc5b2beb1ed6732ef56415445a5f030bfb(@typescript-eslint/parser@7.16.0):
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/6f2217cc5b2beb1ed6732ef56415445a5f030bfb}
+    id: github.com/3846masa/configs/6f2217cc5b2beb1ed6732ef56415445a5f030bfb
     name: '@3846masa/configs'
-    version: 1.0.414
+    version: 1.0.415
     dependencies:
       '@eslint/js': 9.6.0
       '@tsconfig/strictest': 2.0.5
