@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#0c0602920faedf467791ceb088304087d198b14f
-    version: github.com/3846masa/configs/0c0602920faedf467791ceb088304087d198b14f(@typescript-eslint/parser@7.16.0)
+    specifier: github:3846masa/configs#871a008158408b01e26732549561afe770c09873
+    version: github.com/3846masa/configs/871a008158408b01e26732549561afe770c09873(@typescript-eslint/parser@7.16.0)
   '@rollup/plugin-commonjs':
     specifier: 26.0.1
     version: 26.0.1(rollup@4.18.1)
@@ -238,11 +238,6 @@ packages:
     dependencies:
       eslint: 9.7.0
       eslint-visitor-keys: 3.4.3
-    dev: true
-
-  /@eslint-community/regexpp@4.10.0:
-    resolution: {integrity: sha512-Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==}
-    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     dev: true
 
   /@eslint-community/regexpp@4.11.0:
@@ -920,7 +915,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@eslint-community/regexpp': 4.10.0
+      '@eslint-community/regexpp': 4.11.0
       '@typescript-eslint/parser': 7.16.0(eslint@9.7.0)(typescript@5.5.3)
       '@typescript-eslint/scope-manager': 7.16.0
       '@typescript-eslint/type-utils': 7.16.0(eslint@9.7.0)(typescript@5.5.3)
@@ -4563,11 +4558,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/0c0602920faedf467791ceb088304087d198b14f(@typescript-eslint/parser@7.16.0):
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/0c0602920faedf467791ceb088304087d198b14f}
-    id: github.com/3846masa/configs/0c0602920faedf467791ceb088304087d198b14f
+  github.com/3846masa/configs/871a008158408b01e26732549561afe770c09873(@typescript-eslint/parser@7.16.0):
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/871a008158408b01e26732549561afe770c09873}
+    id: github.com/3846masa/configs/871a008158408b01e26732549561afe770c09873
     name: '@3846masa/configs'
-    version: 1.0.418
+    version: 1.0.419
     dependencies:
       '@eslint/js': 9.7.0
       '@tsconfig/strictest': 2.0.5
