@@ -20,8 +20,8 @@ devDependencies:
     specifier: 7.0.3
     version: 7.0.3
   rehype-meta:
-    specifier: 4.0.0
-    version: 4.0.0
+    specifier: 4.0.1
+    version: 4.0.1
   rehype-preset-minify:
     specifier: 7.0.0
     version: 7.0.0
@@ -804,6 +804,16 @@ packages:
       space-separated-tokens: 2.0.2
     dev: true
 
+  /hastscript@9.0.0:
+    resolution: {integrity: sha512-jzaLBGavEDKHrc5EfFImKN7nZKKBdSLIdGvCwDZ9TfzbF2ffXiov8CKE445L2Z1Ek2t/m4SKQ2j6Ipv7NyUolw==}
+    dependencies:
+      '@types/hast': 3.0.3
+      comma-separated-tokens: 2.0.3
+      hast-util-parse-selector: 4.0.0
+      property-information: 6.4.0
+      space-separated-tokens: 2.0.2
+    dev: true
+
   /html-enumerated-attributes@1.1.0:
     resolution: {integrity: sha512-XJMYQYY3rze+lUxVb3ufucdjyvbPEr6ZRx96K1Z3IjOdoNj4qRqnmn69XZuTL+DHGewHjgZW0vWezx5aJsV80g==}
     dev: true
@@ -1379,13 +1389,13 @@ packages:
       vfile: 6.0.1
     dev: true
 
-  /rehype-meta@4.0.0:
-    resolution: {integrity: sha512-sjq2RyKCStdJ5qxLWSHqTvx/zcJXm6QcdGdBbovNRLaC1+p69JTZG+sWKNhCE2cUZ6OVNIm3+HdIFJJfKBirUg==}
+  /rehype-meta@4.0.1:
+    resolution: {integrity: sha512-nLwA17+GbtBYi3C1KSrFR8JlqXv76mz185U//xDEAYgzE3g/bSD6WKSXva1W95ttzouUCJwA09X3AQZIi3R+Nw==}
     dependencies:
       '@types/hast': 3.0.3
       hast-util-from-selector: 3.0.0
       hast-util-select: 6.0.2
-      hastscript: 8.0.0
+      hastscript: 9.0.0
       vfile: 6.0.1
     dev: true
 
