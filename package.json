@@ -52,7 +52,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/eslint": "8.56.10",
+    "@types/eslint": "8.56.11",
     "@types/serviceworker": "0.0.89",
     "rollup": "4.18.1",
     "rollup-plugin-license": "3.5.2",
