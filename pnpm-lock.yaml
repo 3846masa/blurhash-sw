@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#d45a41dd6369bab2978aa3f9cb400df71ec52572
-    version: github.com/3846masa/configs/d45a41dd6369bab2978aa3f9cb400df71ec52572(@typescript-eslint/parser@7.16.1)
+    specifier: github:3846masa/configs#386f1e36317d7a957841f7e961c3f116a5471354
+    version: github.com/3846masa/configs/386f1e36317d7a957841f7e961c3f116a5471354(@typescript-eslint/parser@7.16.1)
   '@rollup/plugin-commonjs':
     specifier: 26.0.1
     version: 26.0.1(rollup@4.19.0)
@@ -4558,11 +4558,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/d45a41dd6369bab2978aa3f9cb400df71ec52572(@typescript-eslint/parser@7.16.1):
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/d45a41dd6369bab2978aa3f9cb400df71ec52572}
-    id: github.com/3846masa/configs/d45a41dd6369bab2978aa3f9cb400df71ec52572
+  github.com/3846masa/configs/386f1e36317d7a957841f7e961c3f116a5471354(@typescript-eslint/parser@7.16.1):
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/386f1e36317d7a957841f7e961c3f116a5471354}
+    id: github.com/3846masa/configs/386f1e36317d7a957841f7e961c3f116a5471354
     name: '@3846masa/configs'
-    version: 1.0.425
+    version: 1.0.426
     dependencies:
       '@eslint/js': 9.7.0
       '@tsconfig/strictest': 2.0.5
