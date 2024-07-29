@@ -53,7 +53,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/eslint": "9.6.0",
-    "@types/serviceworker": "0.0.89",
+    "@types/serviceworker": "0.0.90",
     "rollup": "4.19.0",
     "rollup-plugin-license": "3.5.2",
     "rollup-plugin-terser": "7.0.2",
