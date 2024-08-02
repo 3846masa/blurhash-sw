@@ -41,8 +41,8 @@ devDependencies:
     specifier: 9.6.0
     version: 9.6.0
   '@types/serviceworker':
-    specifier: 0.0.90
-    version: 0.0.90
+    specifier: 0.0.91
+    version: 0.0.91
   rollup:
     specifier: 4.19.1
     version: 4.19.1
@@ -900,8 +900,8 @@ packages:
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
     dev: true
 
-  /@types/serviceworker@0.0.90:
-    resolution: {integrity: sha512-hwHf2t1hsXBn9WhSKLVIrOJ8b7HF52Lb60r2Va4gtySQboITPSkZvzYsnIgCs3YF9Z7VGhiuezMHRnmzg/IfwQ==}
+  /@types/serviceworker@0.0.91:
+    resolution: {integrity: sha512-Pl5Oi1WgXeEseX4LLib/botpbvscm506GH3SPKM00mnSgQRijsQZmiYnOM8tvA7diXPIvhyk5j5+D9O2mD2qHg==}
     dev: true
 
   /@typescript-eslint/eslint-plugin@7.17.0(@typescript-eslint/parser@7.17.0)(eslint@9.8.0)(typescript@5.5.4):
