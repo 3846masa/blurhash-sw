@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@3846masa/configs": "github:3846masa/configs#1680811faae257796efe99b055aee5072cac6577",
-    "@rollup/plugin-commonjs": "26.0.1",
+    "@rollup/plugin-commonjs": "26.0.3",
     "@rollup/plugin-node-resolve": "15.2.4",
     "@rollup/plugin-typescript": "11.1.6",
     "@semantic-release/changelog": "6.0.3",
