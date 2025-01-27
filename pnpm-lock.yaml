@@ -19,8 +19,8 @@ importers:
         version: 3.0.0
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#d20d5d0c8d45814e15d50fca047b48e712b41d38
-        version: https://codeload.github.com/3846masa/configs/tar.gz/d20d5d0c8d45814e15d50fca047b48e712b41d38(@typescript-eslint/parser@8.21.0(eslint@9.18.0)(typescript@5.7.3))
+        specifier: github:3846masa/configs#e19768441b09e9422cf92dd5f09e1edff753143a
+        version: https://codeload.github.com/3846masa/configs/tar.gz/e19768441b09e9422cf92dd5f09e1edff753143a(@typescript-eslint/parser@8.21.0(eslint@9.18.0)(typescript@5.7.3))
       '@rollup/plugin-commonjs':
         specifier: 28.0.2
         version: 28.0.2(rollup@4.31.0)
@@ -69,9 +69,9 @@ packages:
   '@3846masa/bmp@1.1.3':
     resolution: {integrity: sha512-bNzw0zI2iRtBZ7Wa+RmNifoOvCmBFCYOUI80VkDV49EPgmg6m8cmLFy1EUiJkBqDyirxPx5oebf5NTAruIMDAA==}
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/d20d5d0c8d45814e15d50fca047b48e712b41d38':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/d20d5d0c8d45814e15d50fca047b48e712b41d38}
-    version: 1.0.557
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e19768441b09e9422cf92dd5f09e1edff753143a':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/e19768441b09e9422cf92dd5f09e1edff753143a}
+    version: 1.0.558
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -2517,7 +2517,7 @@ snapshots:
 
   '@3846masa/bmp@1.1.3': {}
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/d20d5d0c8d45814e15d50fca047b48e712b41d38(@typescript-eslint/parser@8.21.0(eslint@9.18.0)(typescript@5.7.3))':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e19768441b09e9422cf92dd5f09e1edff753143a(@typescript-eslint/parser@8.21.0(eslint@9.18.0)(typescript@5.7.3))':
     dependencies:
       '@eslint/js': 9.18.0
       '@tsconfig/strictest': 2.0.5
