@@ -48,7 +48,7 @@
     "@3846masa/configs": "github:3846masa/configs#5f9026e041e51fab2760c05a5cafaa48c519f393",
     "@rollup/plugin-commonjs": "28.0.3",
     "@rollup/plugin-node-resolve": "16.0.1",
-    "@rollup/plugin-typescript": "11.1.6",
+    "@rollup/plugin-typescript": "12.1.2",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
