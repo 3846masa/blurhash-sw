@@ -43,8 +43,8 @@ importers:
         specifier: 9.6.1
         version: 9.6.1
       '@types/serviceworker':
-        specifier: 0.0.126
-        version: 0.0.126
+        specifier: 0.0.127
+        version: 0.0.127
       rollup:
         specifier: 4.36.0
         version: 4.36.0
@@ -578,8 +578,8 @@ packages:
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
-  '@types/serviceworker@0.0.126':
-    resolution: {integrity: sha512-x+UXoHSBDj/G8WV7WR1jCKZ5f588HP+MM3CcUNc8JJLO3JfwXgHvRNdgs9cvqOPOWfVvTjdo4wRMiL7TrRpo6Q==}
+  '@types/serviceworker@0.0.127':
+    resolution: {integrity: sha512-jj6drAuP9/KzIeuLKQyIFnmWF4cZMr3phuej3zfsilo7bwaAmDOq2L7Ns/3IjoLVRWpW5q0UBdpiyZAP8CQPzw==}
 
   '@typescript-eslint/eslint-plugin@8.27.0':
     resolution: {integrity: sha512-4henw4zkePi5p252c8ncBLzLce52SEUz2Ebj8faDnuUXz2UuHEONYcJ+G0oaCF+bYCWVZtrGzq3FD7YXetmnSA==}
@@ -3081,7 +3081,7 @@ snapshots:
 
   '@types/resolve@1.20.2': {}
 
-  '@types/serviceworker@0.0.126': {}
+  '@types/serviceworker@0.0.127': {}
 
   '@typescript-eslint/eslint-plugin@8.27.0(@typescript-eslint/parser@8.27.0(eslint@9.23.0)(typescript@5.8.2))(eslint@9.23.0)(typescript@5.8.2)':
     dependencies:
