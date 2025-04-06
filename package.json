@@ -45,7 +45,7 @@
     "regexparam": "3.0.0"
   },
   "devDependencies": {
-    "@3846masa/configs": "github:3846masa/configs#8fb962e0b42620df51f512bdbfe2e079e5c9087d",
+    "@3846masa/configs": "github:3846masa/configs#062161a71c997a3cf084738d22eb0a9a412f9362",
     "@rollup/plugin-commonjs": "28.0.3",
     "@rollup/plugin-node-resolve": "16.0.1",
     "@rollup/plugin-typescript": "11.1.6",
