@@ -6,7 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "lib": ["esnext", "webworker"],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "skipLibCheck": true,
     "target": "esnext",

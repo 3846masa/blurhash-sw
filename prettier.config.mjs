@@ -1,5 +1,3 @@
-import { config as sharedConfig } from '@3846masa/configs/prettier/config.mjs';
+import { config as sharedConfig } from '@3846masa/configs/prettier';
 
-export default {
-  ...sharedConfig,
-};
+export default sharedConfig;
