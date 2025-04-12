@@ -1,0 +1,23 @@
+@import url(https://unpkg.com/modern-css-reset@1.4.0/dist/reset.min.css);
+@import url(https://unpkg.com/github-markdown-css@4.0.0/github-markdown.css);
+@import url(https://unpkg.com/prism-themes@1.9.0/themes/prism-nord.min.css);
+
+body {
+  padding: 64px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+@media screen and (max-width: 630px) {
+  body {
+    padding: 32px;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+p img {
+  display: inline;
+}
